@@ -1,0 +1,12 @@
+diff --git a/src/roslyn-analyzers/src/PerformanceTests/Tests/PerformanceTests.csproj b/src/roslyn-analyzers/src/PerformanceTests/Tests/PerformanceTests.csproj
+index 044a2aba4..b3f8f2611 100644
+--- a/src/roslyn-analyzers/src/PerformanceTests/Tests/PerformanceTests.csproj
++++ b/src/roslyn-analyzers/src/PerformanceTests/Tests/PerformanceTests.csproj
+@@ -4,6 +4,7 @@
+     <LangVersion>preview</LangVersion>
+     <Nullable>disable</Nullable>
+     <OutputType>Exe</OutputType>
++    <UseAppHost>false</UseAppHost>
+   </PropertyGroup>
+   <PropertyGroup>
+     <NonShipping>true</NonShipping>
